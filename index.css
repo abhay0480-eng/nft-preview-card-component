@@ -20,6 +20,57 @@ body {
 .card {
   background-color: hsl(216, 50%, 16%);
   width: 400px;
-  height: 600px;
+  height: auto;
   border-radius: 20px;
+  padding: 40px;
+}
+.card-image {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  color: white;
+  margin-top: 8%;
+}
+.para-text {
+  font-size: 18px;
+  color: #8bacd9;
+  margin-top: 8%;
+}
+
+.icon-text {
+  margin-top: 10%;
+  margin-bottom: 8%;
+  display: flex;
+  justify-content: space-between;
+}
+.ethereum {
+  display: flex;
+  color: #01fff8;
+}
+.clock {
+  display: flex;
+  color: #8bacd9;
+}
+.icon-ethereum {
+  margin-right: 7px;
+}
+
+.card-footer {
+  margin-top: 10%;
+  display: flex;
+  align-items: center;
+}
+
+.card-footer-text {
+  margin-left: 15px;
+  color: #8bacd9;
+}
+strong {
+  color: rgb(218, 211, 211);
+}
+.card-footer-image {
+  border: 1px solid white;
+  border-radius: 50%;
 }
