@@ -6,6 +6,7 @@
 
 body {
   font-family: "Outfit", sans-serif;
+  background-color: hsl(217, 54%, 11%);
 }
 
 .card-container {
@@ -73,4 +74,15 @@ strong {
 .card-footer-image {
   border: 1px solid white;
   border-radius: 50%;
+}
+hr {
+  height: 1px;
+  background-color: #454e5a;
+  border: none;
+}
+
+footer {
+  height: 50px;
+  text-align: center;
+  color: white;
 }
